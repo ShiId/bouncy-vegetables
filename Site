@@ -16,8 +16,24 @@
 		}
 		#versionControl{
 		color:white;
-	
 		}
+
+		.boxThingy{
+		border: 4px dashed white;
+		padding: 10px; 
+		margin: 2%;
+		}
+		
+		ul{
+		text-decoration: none;
+		}
+
+		li{
+		text-decoration: none;
+		list-style: none;
+		}
+
+
 		</style>
 	</head>
 	<body>
