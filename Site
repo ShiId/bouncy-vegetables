@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+	<head>
+			<meta charset="utf-8" />
+		<title>Tiny Game for Tiny Man</title>
+		<style>
+			html{
+		background-color: lightSlateGray;
+			}
+		header{
+		background-color: black;
+		display:inline-block;
+		width: auto;
+		height: auto;
+		padding: 10px;
+		}
+		#versionControl{
+		color:white;
+	
+		}
+		</style>
+	</head>
+	<body>
+		<header>
+			<div id="versionControl">alpha -0.1</div>
+		</header>
+
+		<section class = "boxThingy">
+			<div id="cL">changeLog:</div>
+			<article>
+				<ul>
+					<li></li>
+					<li></li>
+					<li></li>
+				</ul>
+				<p></p>
+			</article>
+		</section>
+
+		<section class = "boxThingy">
+
+		</section>
+
+
+		<section class = "boxThingy"></section>
+		<section class = "boxThingy"></section>
+
+		<footer id = "madeBy"></footer>
+	</body>
+</html>
