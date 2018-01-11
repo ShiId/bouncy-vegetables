@@ -1,66 +1,59 @@
 <!DOCTYPE html>
 <html>
-	<head>
-			<meta charset="utf-8" />
-		<title>Tiny Game for Tiny Man</title>
-		<style>
-			html{
-		background-color: lightSlateGray;
-			}
-		header{
-		background-color: black;
-		display:inline-block;
-		width: auto;
-		height: auto;
-		padding: 10px;
-		}
-		#versionControl{
-		color:white;
-		}
+<head>
+    <meta charset="utf-8" />
+    <title>Tiny Game for Tiny Man</title>
+    <style>
+        html {
+            background-color: lightSlateGray;
+        }
 
-		.boxThingy{
-		border: 4px dashed white;
-		padding: 10px; 
-		margin: 2%;
-		}
-		
-		ul{
-		text-decoration: none;
-		}
+        header {
+            background-color: black;
+            display: inline-block;
+            width: auto;
+            height: auto;
+            padding: 10px;
+        }
 
-		li{
-		text-decoration: none;
-		list-style: none;
-		}
+        #versionControl {
+            color: white;
+        }
 
+        .boxThingy {
+            border: 4px solid white;
+            padding: 10px;
+            margin: 2%;
+        }
 
-		</style>
-	</head>
-	<body>
-		<header>
-			<div id="versionControl"> <span>version:</span> alpha -0.1</div>
-		</header>
+        ul {
+            text-decoration: none;
+        }
 
-		<section class = "boxThingy">
-			<div id="cL">changeLog:</div>
-			<article>
-				<ul>
-					<li></li>
-					<li></li>
-					<li></li>
-				</ul>
-				<p></p>
-			</article>
-		</section>
+        li {
+            text-decoration: none;
+            list-style: none;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <div id="versionControl"> <span>version:</span> alpha -0.1</div>
+    </header>
 
-		<section class = "boxThingy">
-
-		</section>
+    <section class="boxThingy">
+        <div id="cL">changeLog:</div>
+        <article>
+            <ul>
+                <li></li>
+                <li></li>
+                <li></li>
+            </ul>
+            <p></p>
+        </article>
+    </section>
 
 
-		<section class = "boxThingy"></section>
-		<section class = "boxThingy"></section>
-
-		<footer id = "madeBy"></footer>
-	</body>
+    <footer id="madeBy">BaaadGames</footer>
+</body>
 </html>
