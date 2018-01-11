@@ -1,0 +1,26 @@
+//xmlhttp request
+var requestDaJSON = "https://raw.github...."; // fill this out when you have the actual github link
+
+
+var request = new XMLHttpRequest();  //need to create a variable for it; making a new instance
+
+request.open("GET", requestDaJSON); // opening the box
+request.responseType = "text"; //get text
+request.send(); //also fill in these parameters
+//We finally got the JSON file
+//Hey, Mr. Jewell, if you're reading this, you smell like moldy pickles; gottam <<<<<<<<
+
+request.onload = function(){
+
+    var gameText = request.response;
+    var game = JSON.parse(gameText) ;//parse response to make machine -> people readable; this line is specific to JSON; Parsing game text to make it readable. Define JSON.Parse.
+    //Write out application in order to finish this function
+
+}
+
+//Put what's inside the json... alright Mr. Jewell did not finish that sentence, nevermind
+
+function putInVC(){
+    var VC = document.getElemenById(""versionControl"")// pulling in the div 
+    //create json file in tandem(?)
+}
